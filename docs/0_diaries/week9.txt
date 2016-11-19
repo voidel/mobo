@@ -1,0 +1,38 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 9
+
+# Tasks complete #
+
+  - Client/Server
+    - Projectiles are now synchronized across clients
+    - Defined a new message type SHOOT
+    - Added player rotation to MOVE messages to make remote player movement more fluid
+    - Collision detection is now a thing, players and projectiles have set bounds
+    - Each client now checks for collisions to it's own player
+    - Add an invulnerability timer when hit by a projectile
+    - Add a new message for changing player Health
+    - Players hit by projectiles lose health and the health bar shortens
+    - Health bar changes colour when below 66% and 33%.
+    - Fix annoying bug where players near (0,0) would get hit regardless of bounds
+
+# Tasks in progress # 
+
+  - Client/Server
+    - Finalise prototype build for demonstration
+
+# Tasks pending #
+
+  - Interim Report
+
+# Comments #
+
+This week I spent most of my time on the two features that were suggested would be good to demonstrate in the
+prototype by my supervisor, namely, the synchronization of projectiles across clients and the ability to hurt
+other players with those projectiles which requires some collision detection. Both are now implemented and
+despite having a lot of room for improvement are enough for the prototype demonstration. Certain features such
+as the shortening and changing colour of the health bar are really beneficial to the user experience and look
+great. The HEALTH messaging protocol could do with a lot of work and despite it working fine for a demo there
+are a lot of ways I can think of that will break it. Since it's relative there are problems where a player
+might take a single damage event when they should take two, etc. This will definitely be resolved after the
+interim report is handed in.

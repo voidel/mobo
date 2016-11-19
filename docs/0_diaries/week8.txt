@@ -1,0 +1,48 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 8
+
+# Tasks complete #
+
+  - Client/Server
+    - Added server_ip and server_port as configurable settings in MoboSettings.xml
+    - Moved the network connection code into the online gamestate as opposed to running at the start
+    - Modified Network.cs so that player objects are stored at the client end too
+    - Impoved the command line interface of MoboServer to display connected players coordinates and uids
+    - Improved the protocols so that UIDs are the primary way to distinguish players
+    - Reduced the move packet size from 29+ bytes (from strings) to a constant 17 bytes (int64)
+    - Set the client to cull a player's projectiles over 10 (in the future the server will track this too)
+    - Kick player back to the main menu if the server fails to connect
+    - Implement timeouts, clients are disconnected if they fail to provide a move message for 180 ticks
+    - Change header of messages to byte constants instead of strings (more packet optimisation)
+    - Set a parameter in Projectile so it 'knows' who fired it
+    - Colossal number of stability and bug fixes (see svn log)
+    - Tested network play in a real world environment (with a friend who lives in Corby)
+
+# Tasks in progress # 
+
+  - Client/Server
+    - Optimise the protocol (always more to do)
+    - Fix some strange bugs (sometimes clients disconnect multiple times in a row)
+
+# Tasks pending #
+
+  - Client/Server
+    - Have projectiles tracked by the server too (will require new message type)
+    - Have some rudimentary collision detection in place
+
+# Comments #
+
+This week was my busiest yet as I come up to the prototype demonstration. The good news is that the most
+important feature, i.e. the network play, is now in place and is surprisingly robust. Provided firewalls
+do not ruin things, players can host a server using MoboServer.exe, and provided the clients have the
+right IP and port configured, can join the game, leave the game, timeout, and can see all current players
+and will see all future players that connect. They can see eachother moving around (although a little juddery
+due to no interpolation) and the tickrate can be configured at the expense of perfomance. Currently it runs
+at 30 move updates a second as setting the tickrate to 60 provided no notable difference on the client end.
+A lot of time was devoted to fixing bugs, I had huge amounts of problems, from duplications of the player
+to the wrong parsing of messages (was using int32 to read longs instead of int64) which caused chaos.
+In reality, there probably wasn't any way to prepare for these bugs without first attempting it first, so
+I'm glad I did encounter them and the user experience is a lot smoother now. Next week I will modify the
+server and client so that projectiles are tracked, and can hit players (and it registers who hit who). This
+will be sufficient for the prototype demonstration.

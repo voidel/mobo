@@ -1,0 +1,27 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 2
+
+# Tasks complete #
+
+  - Project Plan
+    - Introduction
+    - Aim
+
+# Tasks in progress # 
+
+  - Project Plan
+    - Objectives
+    - Functional Requirements
+
+# Tasks pending #
+
+  - Code
+    - Research game frameworks/libraries
+    - Research networking methods/protocols/libraries
+
+# Comments #
+
+This week was mainly spent working on the project plan, although I did spend a little
+time looking at how I was going to make the game and reading about C# which I have chosen
+to develop the game using.

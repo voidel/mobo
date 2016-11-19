@@ -1,0 +1,33 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 4
+
+# Tasks complete #
+
+  - Project Plan
+
+  - Code
+    - Set up XNA project for game
+    - Made a basic menu with interactive buttons
+    - Set up game states used for switching between menu and ingame
+    - Found and imported free use assets for game
+
+# Tasks in progress # 
+
+  - Code
+    - Design and structure of the system
+
+# Tasks pending #
+
+  - Code
+    - Create a player on screen with keyboard movement
+
+# Comments #
+
+This week was spent structuring and fleshing out the foundations of the project. I want
+to have the menus set up first as opposed to the game itself so I have a solid foundation
+to build the game on and not have to come back later on while I should be doing important
+development on the networking to do trivial menu programming. It also helps me to learn
+the XNA framework without jumping straight into the deep end. Menus are mostly set up now
+although there is no settings to tweak, play and help turn the screen black (as there is no
+draw/update code behind them) and exit does not actually exit. Spent quite a lot of time structuring the gamestates in a logical way, each state has it's own draw and update methods, and therefore are only executing while they are active.

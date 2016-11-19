@@ -1,0 +1,32 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 3
+
+# Tasks complete #
+
+  - Project Plan
+    - Objectives
+    - Functional Requirements
+
+  - Code
+    - Research game frameworks/libraries
+
+# Tasks in progress # 
+
+  - Project Plan
+    - Revise requirements based on feedback
+
+  - Code
+    - Research networking methods/protocols/libraries
+
+# Tasks pending #
+
+  - Code
+    - Learn chosen framework/library
+    - Familiarise with C#
+
+# Comments #
+
+This week I spent most of the time once again working on the plan. However I did decide
+upon the Microsoft XNA framework to build the project with. I set aside some time to do
+some basic XNA tutorials which will help me out a lot during development.

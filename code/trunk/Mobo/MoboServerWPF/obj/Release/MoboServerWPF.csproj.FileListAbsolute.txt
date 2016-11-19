@@ -1,0 +1,15 @@
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\bin\Release\MoboServerWPF.exe.config
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\bin\Release\MoboServerWPF.exe
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\bin\Release\MoboServerWPF.pdb
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\bin\Release\Lidgren.Network.dll
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MainWindow.g.cs
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\App.g.cs
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF_MarkupCompile.cache
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF_MarkupCompile.lref
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MainWindow.baml
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF.g.resources
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF.Properties.Resources.resources
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF.csproj.GenerateResource.Cache
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF.exe
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF.pdb
+C:\Users\Chris\Desktop\cjc44\code\trunk\Mobo\MoboServerWPF\obj\Release\MoboServerWPF.csprojResolveAssemblyReference.cache

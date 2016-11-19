@@ -1,0 +1,41 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 7
+
+# Tasks complete #
+
+  - Code
+    - Added LidgrenNetwork library to the project
+    - Created an Online gameState with a menu button (Join Server)
+    - Created a KeyboardInput class to improve reuse of keyboard functions
+    - Created a command line MoboServer project within the solution
+    - Specified a rough protocol for the messaging in Network.cs (header, playername, x pos, y pos)
+    - Added a Player class that stores information pertaining to players in the server
+    - Had the client and server transferring info at a basic level
+    - Played around with TCP and UDP to see the pros and cons of each
+
+# Tasks in progress # 
+
+  - Server
+    - Optimise the protocol (ints rather than strings where possible)
+    - Set up messaging 'connect', 'move', 'disconnect'
+    - Display players using their positional data
+
+# Tasks pending #
+
+  - Server
+    - Add some system to deny access to players with the same name or IP
+
+# Comments #
+
+This week I begun work on the Server. The server utilises the LidgrenNetwork library to send
+and recieve messages over a network. It allows me to write variables to a stream, like ints and
+strings. At the moment messages have a header that is a string, this tells the server whether the
+client is connecting for the first time, has moved and wants an update, or is trying to disconnect.
+In the future this should be a more efficient primitive type like an int, since strings take up
+more bandwidth and comparing strings is computationally more difficult than comparing ints. I also
+added a Player class to the server that stores and relays certain variables to the Network, such as
+positional coordinates, name and a timeout that disconnects a player automatically if they have not
+been in contact with the server for a certain amount of time. Right at the end of the week I finally
+got the client and server communicating with eachother and transferring basic types such as strings
+and ints.

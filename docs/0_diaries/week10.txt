@@ -1,0 +1,24 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 10
+
+# Tasks complete #
+
+  - Client/Server
+    - List all connected players in the top right hand corner of the client when online
+    - List all connected players in the server command line window
+    - Optimise SHOOT messages so only the direction float is sent rather than two velocity floats
+
+# Tasks in progress # 
+
+  - Interim Report
+
+# Tasks pending #
+
+# Comments #
+
+This week I spent a little time refining some features of the prototype but almost all project time on planning
+and writing the interim report deliverable. In regard to the third task complete, SHOOT messages originally
+had two velocity floads (essentially a vector) that defined the velocity of a bullet sent from a player.
+Rather than this it is easier to send just the direction in radians of the bullet, and calculate the resultant
+velocity of the projectile on the client-side, reducing the size of the message.

@@ -1,0 +1,35 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 6
+
+# Tasks complete #
+
+  - Code
+    - Allow player to change the game resolution via settings menu
+    - Add smaller backgrounds and optimise them for less memory usage
+    - Split the spriteBatch into two, this allows drawing of 'static' elements like UI
+      and elements that scroll such as the background
+    - Background now tiles over a large area (-5000,-5000) to (5000,5000)
+    - Add a message list that displays system, network and player chat messages in the corner
+
+# Tasks in progress # 
+
+  - Server
+    - Set up a simple messaging protocol
+
+# Tasks pending #
+
+  - Code
+    - Design fortresses and develop random generation
+    - Set bounds for player movement
+
+# Comments #
+
+This week was mostly devoted to getting the game camera to track the player's movement, i.e. regardless
+of the position of the player, the camera will move so that the player is always in the center of the
+screen. This allows creation of levels that are larger than the size of the game window, which is actually
+fairly small. Also I added a parameter to the spritebatch renderer so that it can be fed any size rectangles
+with a texture that is smaller than that rectangle, so that it tiles the texture over the rectangle. This
+allows a large seamless background over a large area now that the game extends beyond the bounds of the window.
+At some point there should be an invisible barrier that prevents players travelling too far out, but for now
+it will do. I put the fortresses on hold for now as I really need to start working on the network and server.

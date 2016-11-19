@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Cursors/crosshair_red.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Cursors/hand.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Cursors/pointer.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/shield.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Sounds/boop.wav</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/UI/buttonBlue.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/UI/splash_logo_alt.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/UI/buttonGray.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/laserBlue.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Backgrounds/1.gif</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Backgrounds/5.gif</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Backgrounds/7.gif</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/UI/radar.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/core.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/UI/buttonMinus.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/UI/buttonPlus.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_h.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_ne.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_nw.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_se.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_sw.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_v.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_c.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_e.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_n.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_s.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/pipe_w.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/orbBlue.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/orbGreen.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/orbRed.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/orbYellow.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/player.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/playerShield.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/UI/EmptyBar.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/explode.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Fonts/generic.bmp</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Fonts/generic2.bmp</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Fonts/generic3.bmp</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Sounds/laser.wav</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/projectile_explode.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Entities/laserYellow.png</File>
+    <File>C:/Users/Chris/Desktop/cjc44/code/trunk/Mobo/Mobo/Content/Backgrounds/help.png</File>
+  </SourceFiles>
+</SourceFileCollection>

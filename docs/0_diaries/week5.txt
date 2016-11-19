@@ -1,0 +1,37 @@
+     __  __  __  
+|\/|/  \|__)/  \ 
+|  |\__/|__)\__/  Development Diary / Week 5
+
+# Tasks complete #
+
+  - Project
+    - Port project to the Monogame framework
+
+  - Code
+    - Create a player on screen with keyboard movement
+    - The player rotates to match the direction of movement (using trigonometry)
+    - Gradual acceleration to a maximum speed, simulated friction
+    - Set up projectile class
+    - Player can shoot the projectile using the space bar
+
+# Tasks in progress # 
+
+  - Code
+    - Design fortresses and develop random generation
+
+# Tasks pending #
+
+
+
+# Comments #
+
+This week I moved the project from the XNA framework to Monogame. Monogame is very
+similar in that it is built upon XNA, but isn't 'dead' and has a lot of support, whilst
+being open source and free. Porting the existing code was easy and other than the content
+import pipeline, every worked straight off the bat. I mainly worked on the player movement,
+making sure it was as smooth as possible. I spent quite a lot of time trying to get the
+player rotation correct, works quite well now but was tricky due to having to calculate
+inverse tangent based upon the velocity of the ship. Also added support to shoot, and
+once again it required calculating the starting rotation of the bullet (based on the
+current rotation of the ship) and resultant direction the bullet travels in. Added a 200ms
+limit between bullet fires.
